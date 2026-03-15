@@ -7,7 +7,7 @@ import ThreadList from '../components/threadList';
 
 function HomePage() {
   const dispatch = useDispatch();
-  console.log("test")
+
   const threads = useSelector((state) => state.threads);
   const users = useSelector((state) => state.users);
   const authUser = useSelector((state) => state.authUser);
