@@ -6,8 +6,6 @@ import { asyncPopulateUsersAndThreads } from '../states/shared/action';
 import ThreadList from '../components/threadList';
 
 function HomePage() {
-  console.log("tetsing")
-  
   const dispatch = useDispatch();
 
   const threads = useSelector((state) => state.threads);
