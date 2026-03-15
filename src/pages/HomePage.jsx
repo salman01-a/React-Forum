@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { asyncPopulateUsersAndThreads } from '../states/shared/action';
-import ThreadList from '../components/ThreadList';
+import ThreadList from '../components/threadList';
 
 function HomePage() {
   const dispatch = useDispatch();
